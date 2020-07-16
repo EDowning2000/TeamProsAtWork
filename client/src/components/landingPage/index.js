@@ -4,14 +4,10 @@ import logo from "../../../images/ferlanandnataliapng.png";
 
 function landingpage() {
   render(
-    <div
-    className="firstDiv"
-      style="margin: 0;
- background: rgba(28, 28, 28, 1.0);"
-    >
+    <div className="firstDiv">
       <input id="anPageName" name="page" type="hidden" value="landingpage" />
       <div className="landingpage anima-word-break ">
-        <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
+        <div className="secondDiv">
           <div className="tagline">
             <div className="thenleaveittothe">Then leave it to the Pro’s.</div>
             <div className="areyoulookingtoi">
