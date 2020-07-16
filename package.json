@@ -1,0 +1,19 @@
+{
+  "name": "teamprosatwork",
+  "version": "1.0.0",
+  "description": "nutritionalist website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDowning2000/TeamProsAtWork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EDowning2000/TeamProsAtWork/issues"
+  },
+  "homepage": "https://github.com/EDowning2000/TeamProsAtWork#readme"
+}
