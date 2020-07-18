@@ -3,7 +3,7 @@ import "./index.scss";
 import logo from "../../../images/ferlanandnataliapng.png";
 
 function testimonials() {
-  render(
+  return(
     <div className="firstDiv">
       <input id="anPageName" name="page" type="hidden" value="testimonials" />
       <div className="testimonials anima-word-break ">

@@ -3,7 +3,7 @@ import "./index.scss";
 import logo from "../../../images/ferlanandnataliapng.png";
 
 function vision() {
-  render(
+  return(
     <div className="firstDiv">
       <input id="anPageName" name="page" type="hidden" value="vision" />
       <div className="vision anima-word-break ">

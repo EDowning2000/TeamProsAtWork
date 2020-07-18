@@ -3,7 +3,7 @@ import "./index.scss";
 import logo from "../../../images/ferlanandnataliapng.png";
 
 function pros() {
-  render(
+  return(
     <div className="firstDiv">
       <input id="anPageName" name="page" type="hidden" value="thepros" />
       <div className="thepros anima-word-break ">

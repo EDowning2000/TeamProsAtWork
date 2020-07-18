@@ -3,7 +3,7 @@ import "./index.scss";
 import logo from "../../../images/ferlanandnataliapng.png";
 
 function landingpage() {
-  render(
+  return(
     <div className="firstDiv">
       <input id="anPageName" name="page" type="hidden" value="landingpage" />
       <div className="landingpage anima-word-break ">

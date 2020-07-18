@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.scss";
-import logo from "../../../images/ferlanandnataliapng.png";
+import logo from "../../images/logo.png";
 
 function contact() {
-  render(
+  return(
     <div className="firstDiv">
       <input id="anPageName" name="page" type="hidden" value="contact" />
       <div className="contact anima-word-break ">
