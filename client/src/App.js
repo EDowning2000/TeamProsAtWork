@@ -1,11 +1,11 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Contact from '../src/components/contact/index' 
+import home from '../../client/src/components/home/index' 
 
 function App() {
   return (
-    <Contact></Contact>
+    <home></home>
   );
 }
 
