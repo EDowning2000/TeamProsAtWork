@@ -1,3 +1,10 @@
+.mainContainer {
+  position: relative;
+  width: 1024px;
+  height: 900px;
+
+  background: #716f6f;
+}
 .mainLogo {
   position: absolute;
   width: 81px;
@@ -22,7 +29,7 @@
 }
 .pros {
   position: absolute;
-  width: 57px;
+  width: 58px;
   height: 19px;
   left: 849px;
   top: 52px;

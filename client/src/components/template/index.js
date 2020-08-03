@@ -1,23 +1,15 @@
 import React from "react";
-import "./index.sass";
+import "./index.css";
 import logo from "../../images/logo.png";
 
-
-export default function template (){
+export default function Template() {
   return (
-    <div className='container'>
-      <img src={logo} className="mainLogo"></img>
-        <div className='vision'>Vision</div>
-        <div className='pros'>The Pro's</div>
-        <div className='contact'>Contact</div>
-        <div className='emer'>Made with 🖤 by Emerson D.</div>
-
-
-
-
-
-
-
+    <div className="mainContainer">
+      <img src={logo} className="mainLogo" alt="main logo"></img>
+      <div className="vision">Vision</div>
+      <div className="pros">The Pro's</div>
+      <div className="contact">Contact</div>
+      <a className="emer" href="https://github.com/EDowning2000">Made with 🖤 by Emerson D.</a>
     </div>
-  )
+  );
 }
