@@ -1,9 +1,18 @@
+.natPic {
+  position: absolute;
+  width: 696px;
+  height: 552px;
+  left: 1059px;
+  top: 143px;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
 .homeMotto {
   position: absolute;
   width: 656px;
   height: 57px;
-  left: 184px;
-  top: 638px;
+  left: 177px;
+  top: 718px;
 
   font-family: Avenir;
   font-style: italic;
@@ -18,8 +27,8 @@
   position: absolute;
   width: 169px;
   height: 25px;
-  left: 271px;
-  top: 495px;
+  left: 434px;
+  top: 620px;
 
   font-family: Avenir;
   font-style: normal;
@@ -34,8 +43,8 @@
   position: absolute;
   width: 294px;
   height: 50px;
-  left: 198px;
-  top: 520px;
+  left: 361px;
+  top: 645px;
 
   font-family: Avenir;
   font-style: italic;
@@ -45,28 +54,21 @@
 
   color: #ffffff;
 }
-.natPic {
-  position: absolute;
-  width: 835px;
-  height: 426px;
-  left: 189px;
-  top: 139px;
-}
 .homeRectangle1 {
-  position: absolute;
-  width: 14px;
-  height: 57px;
-  left: 170px;
-  top: 495px;
-
-  background: #2d2c2c;
-}
-.homeRectangle2 {
   position: absolute;
   width: 343px;
   height: 57px;
-  left: 184px;
-  top: 495px;
+  left: 347px;
+  top: 620px;
 
   background: #171617;
+}
+.homeRectangle2 {
+  position: absolute;
+  width: 14px;
+  height: 57px;
+  left: 333px;
+  top: 620px;
+
+  background: #2d2c2c;
 }
