@@ -16,7 +16,7 @@
 }
 .followUs {
   position: absolute;
-  width: 149px;
+  width: 151px;
   height: 18.78px;
   left: 439px;
   top: 305.22px;
@@ -31,7 +31,7 @@
 }
 .emailUs {
   position: absolute;
-  width: 110px;
+  width: 120px;
   height: 19px;
   left: 459px;
   top: 450px;
@@ -64,16 +64,16 @@
   position: absolute;
   width: 73.48px;
   height: 53.38px;
-  left: 550.24px;
+  left: 480px;
   top: 238px;
 
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .gmailLogo {
   position: absolute;
-  width: 67px;
-  height: 67px;
-  left: 547px;
+  width: 90px;
+  height: 55px;
+  left: 470px;
   top: 367px;
 
   transform: matrix(-1, 0, 0, 1, 0, 0);
