@@ -17,11 +17,11 @@ export default function Contact() {
         the process of adding you to the Team Pro’s At Work Family!
       </div>
       <img
-        src="instagramPic"
+        src={instagramPic}
         alt="instagram logo"
         className="instagramPic"
       ></img>
-      <img src="gmailPic" alt="gmail logo" className="gmailLogo"></img>
+      <img src={gmailPic} alt="gmail logo" className="gmailLogo"></img>
     </div>
   );
 }
