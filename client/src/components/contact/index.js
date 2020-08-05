@@ -1,9 +1,10 @@
 import React from "react";
 import "./index.css";
 import Template from "../template/index";
-import iphone from "../../images/iphonePic.png";
-import instagramPic from "../../images/instagramLogo.png";
-import gmailPic from "../../images/gmailLogo.png";
+// import iphone from "../../images/iphonePic.png";
+//not currently needed but may add in the future for an instagram carousel
+import instagramLogo from "../../images/instagramLogo.png";
+import gmailLogo from "../../images/gmailLogo.png";
 
 export default function Contact() {
   return (
@@ -17,11 +18,11 @@ export default function Contact() {
         the process of adding you to the Team Pro’s At Work Family!
       </div>
       <img
-        src={instagramPic}
+        src={instagramLogo}
         alt="instagram logo"
-        className="instagramPic"
+        className="instagramlogo"
       ></img>
-      <img src={gmailPic} alt="gmail logo" className="gmailLogo"></img>
+      <img src={gmailLogo} alt="gmail logo" className="gmailLogo"></img>
     </div>
   );
 }
