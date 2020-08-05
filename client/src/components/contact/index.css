@@ -1,8 +1,80 @@
-.interested{
+.interested {
+  position: absolute;
+  width: 269px;
+  height: 25px;
+  left: 377px;
+  top: 160px;
 
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #ffffff;
 }
-.followUs{}
-.emailUs{}
-.workWithUs{}
-.instagramlogo{}
-.gmailLogo{}
+.followUs {
+  position: absolute;
+  width: 149px;
+  height: 18.78px;
+  left: 439px;
+  top: 305.22px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.emailUs {
+  position: absolute;
+  width: 110px;
+  height: 19px;
+  left: 459px;
+  top: 450px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.workWithUs {
+  position: absolute;
+  width: 491px;
+  height: 57px;
+  left: 266px;
+  top: 522px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+.instagramlogo {
+  position: absolute;
+  width: 73.48px;
+  height: 53.38px;
+  left: 550.24px;
+  top: 238px;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.gmailLogo {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  left: 547px;
+  top: 367px;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
