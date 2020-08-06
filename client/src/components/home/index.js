@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import Template from "../template/index";
 import natPic from "../../images/natPic.jpg";
+// import { Link } from 'react-router0-dom';
 
 export default function Home() {
   return (
