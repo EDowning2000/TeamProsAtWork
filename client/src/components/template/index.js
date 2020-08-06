@@ -16,7 +16,7 @@ export default function Template() {
         <div className="contact">Contact</div>
       </Link>
 
-      <a className="emer" href="https://github.com/EDowning2000">
+      <a className="emer" href="https://github.com/EDowning2000" target="blank">
         Made with 🖤 by Emerson D.
       </a>
     </div>
