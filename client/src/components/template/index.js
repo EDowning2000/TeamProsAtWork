@@ -6,7 +6,10 @@ import { Link } from "react-router-dom";
 export default function Template() {
   return (
     <div className="mainContainer">
-      <img src={logo} className="mainLogo" alt="main logo"></img>
+      <Link to="/">
+        <img src={logo} className="mainLogo" alt="main logo"></img>
+          <div className="home">Home</div>
+      </Link>
       <Link to="/vision">
         <div className="vision">Vision</div>
       </Link>
