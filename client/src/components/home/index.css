@@ -4,6 +4,8 @@
   height: 552px;
   left: 355px;
   top: 143px;
+  z-index: 0;
+ 
 
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
@@ -35,6 +37,7 @@
   font-weight: 900;
   font-size: 18px;
   line-height: 25px;
+  z-index: 3;
   /* identical to box height */
 
   color: #ffffff;
@@ -51,6 +54,7 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
+  z-index: 2;
 
   color: #ffffff;
 }
@@ -60,6 +64,7 @@
   height: 57px;
   left: 347px;
   top: 620px;
+  z-index: 1;
 
   background: #171617;
 }

@@ -14,6 +14,7 @@ export default function Home() {
         even IFBB Pro’s have to work. Get all your information from the people
         who not only do this for a living, but also who have made it, The Pro’s.{" "}
       </div>
+      <div className="homeRectangle1"></div>
       <div className="teamProsAtWorkHome">Team Pro’s At Work</div>
       <div className="contestPrep">Contest Prep And Lifestyle Coaching</div>
       <div className="homeRectangle1"></div>
