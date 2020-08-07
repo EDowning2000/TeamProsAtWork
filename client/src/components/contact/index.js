@@ -12,7 +12,7 @@ export default function Contact() {
       <Template></Template>
       <div className="interested">Interested in Working With Us?</div>
       <a href="https://www.instagram.com/teamprosatwork/" target="blank">
-        <div className="followUs">Follow Us on Instagram!</div>
+        <div className="followUs">Click to Follow Us on Instagram!</div>
       </a>
       <div className="emailUs">Send Us an Email!</div>
       <div className="workWithUs">
