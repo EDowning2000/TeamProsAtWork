@@ -11,19 +11,22 @@ export default function Contact() {
     <div className="contactContainer">
       <Template></Template>
       <div className="interested">Interested in Working With Us?</div>
-      <div className="followUs">Follow Us on Instagram!</div>
+      <a href="https://www.instagram.com/teamprosatwork/" target="blank">
+        <div className="followUs">Follow Us on Instagram!</div>
+      </a>
       <div className="emailUs">Send Us an Email!</div>
       <div className="workWithUs">
         If you are interested in working with us, reach out and we will begin
         the process of adding you to the Team Pro’s At Work Family!
       </div>
       {/* add an a tag and wrap all of the image in it. dont forget target = blank. then work on copy to clipboard */}
-      <img
-        
-        src={instagramLogo}
-        alt="instagram logo"
-        className="instagramlogo"
-      ></img>
+      <a href="https://www.instagram.com/teamprosatwork/" target="blank">
+        <img
+          src={instagramLogo}
+          alt="instagram logo"
+          className="instagramlogo"
+        ></img>
+      </a>
       <img src={gmailLogo} alt="gmail logo" className="gmailLogo"></img>
     </div>
   );
