@@ -17,7 +17,9 @@ export default function Contact() {
         If you are interested in working with us, reach out and we will begin
         the process of adding you to the Team Pro’s At Work Family!
       </div>
+      {/* add an a tag and wrap all of the image in it. dont forget target = blank. then work on copy to clipboard */}
       <img
+        
         src={instagramLogo}
         alt="instagram logo"
         className="instagramlogo"
