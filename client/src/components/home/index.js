@@ -17,7 +17,7 @@ export default function Home() {
       <div className="teamProsAtWorkHome">Team Pro’s At Work</div>
       <div className="contestPrep">Contest Prep And Lifestyle Coaching</div>
       <div className="homeRectangle1"></div>
-      <div className="homeRectangle2"></div>
+      {/* <div className="homeRectangle2"></div> */}
     </div>
   );
 }
