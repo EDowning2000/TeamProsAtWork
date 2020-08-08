@@ -8,6 +8,7 @@ import instagramLogo from "../../images/instagramLogo.png";
 import gmailLogo from "../../images/gmailLogo.png";
 // import { CopyToClipboard } from "react-copy-to-clipboard";
 import Clipboard from "react-clipboard.js";
+import { createPopper } from "@popperjs/core";
 
 const emailAddress = "ifbbprosatwork@gmail.com";
 
@@ -44,8 +45,8 @@ class Contact extends React.Component {
             className="instagramlogo"
           ></img>
         </a>
-        <Clipboard data-clipboard-text ={this.state.value}>
-        <img src={gmailLogo} alt="gmail logo" className="gmailLogo"></img>
+        <Clipboard data-clipboard-text={this.state.value}>
+          <img src={gmailLogo} alt="gmail logo" className="gmailLogo"></img>
         </Clipboard>
       </div>
     );

@@ -10,7 +10,8 @@
     "react": "^16.13.1",
     "react-clipboard.js": "^2.0.16",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "tippy.js": "^6.2.6"
   },
   "scripts": {
     "start": "react-scripts start",
