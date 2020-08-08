@@ -5,8 +5,12 @@ import Template from "../template/index";
 //not currently needed but may add in the future for an instagram carousel
 import instagramLogo from "../../images/instagramLogo.png";
 import gmailLogo from "../../images/gmailLogo.png";
+import { CopyToClipboard } from 'react-copy-to-clipboard';
+
 
 export default function Contact() {
+  const emailAddress = "ifbbprosatwork@gmail.com"
+  
   return (
     <div className="contactContainer">
       <Template></Template>
@@ -14,7 +18,7 @@ export default function Contact() {
       <a href="https://www.instagram.com/teamprosatwork/" target="blank">
         <div className="followUs">Click to Follow Us on Instagram!</div>
       </a>
-      <div className="emailUs" >Send Us an Email!</div>
+      <div className="emailUs">Click to Copy Our Email!</div>
       <div className="workWithUs">
         If you are interested in working with us, reach out and we will begin
         the process of adding you to the Team Pro’s At Work Family!
