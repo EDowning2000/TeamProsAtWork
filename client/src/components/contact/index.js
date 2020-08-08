@@ -44,7 +44,9 @@ class Contact extends React.Component {
             className="instagramlogo"
           ></img>
         </a>
+        <Clipboard data-clipboard-text ={this.state.value}>
         <img src={gmailLogo} alt="gmail logo" className="gmailLogo"></img>
+        </Clipboard>
       </div>
     );
   }
