@@ -9,8 +9,10 @@ import gmailLogo from "../../images/gmailLogo.png";
 // import { CopyToClipboard } from "react-copy-to-clipboard";
 import Clipboard from "react-clipboard.js";
 // import { createPopper } from "@popperjs/core";
-import tippy from 'tippy.js';
-import 'tippy.js/dist/tippy.css'; // optional for styling
+// import tippy from 'tippy.js';
+// import 'tippy.js/dist/tippy.css'; // optional for styling
+import Tippy from "@tippy.js/react";
+import "tippy.js/dist/tippy.css";
 
 const emailAddress = "ifbbprosatwork@gmail.com";
 
