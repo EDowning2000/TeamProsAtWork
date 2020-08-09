@@ -11,7 +11,7 @@ import Clipboard from "react-clipboard.js";
 // import { createPopper } from "@popperjs/core";
 // import tippy from 'tippy.js';
 // import 'tippy.js/dist/tippy.css'; // optional for styling
-import Tippy from "@tippy.js/react";
+import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 
 const emailAddress = "ifbbprosatwork@gmail.com";
@@ -32,9 +32,11 @@ class Contact extends React.Component {
         </a>
 
         <Clipboard data-clipboard-text={this.state.value}>
-          <div className="emailUs" onClick="copy">
-            Click to Copy Our Email!
-          </div>
+          <Tippy content="Copied to Clipboard!">
+            <div className="emailUs" onClick="copy">
+              Click to Copy Our Email!
+            </div>
+          </Tippy>
         </Clipboard>
 
         <div className="workWithUs">
