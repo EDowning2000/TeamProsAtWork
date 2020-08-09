@@ -8,13 +8,14 @@ export default function Template() {
     <div className="mainContainer">
       <Link to="/">
         <img src={logo} className="mainLogo" alt="main logo"></img>
-          <div className="home">Home</div>
+        <div className="home">Home</div>
       </Link>
       <Link to="/vision">
         <div className="vision">Vision</div>
       </Link>
-      <Link to="/pros"></Link>
-      <div className="pros">The Pro's</div>
+      <Link to="/pros">
+        <div className="pros">The Pro's</div>
+      </Link>
       <Link to="/contact">
         <div className="contact">Contact</div>
       </Link>
