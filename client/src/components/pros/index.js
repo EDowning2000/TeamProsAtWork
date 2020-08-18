@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import Template from "../template/index";
+import teamPic from '../../images/teamPic.jpg'
 
 class Pros extends React.Component {
   render() {
