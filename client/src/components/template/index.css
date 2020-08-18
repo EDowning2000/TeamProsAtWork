@@ -1,7 +1,7 @@
 .mainContainer {
   position: relative;
   width: 1024px;
-  height: 900px;
+  height: 1300px;
 
   background: #716f6f;
 }
@@ -75,14 +75,14 @@
   width: 184px;
   height: 14px;
   left: 420px;
-  top: 857px;
+  top: 1257px;
 
   font-family: Avenir;
   font-style: italic;
   font-weight: 300;
   font-size: 10px;
   line-height: 14px;
-  /* identical to box height */
+  
 
   text-align: center;
 

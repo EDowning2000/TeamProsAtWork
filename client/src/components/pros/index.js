@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import Template from "../template/index";
-import teamPic from '../../images/teamPic.jpg'
+import teamPic from "../../images/teamPic.jpg";
 
 class Pros extends React.Component {
   render() {
@@ -12,8 +12,13 @@ class Pros extends React.Component {
         <div className="description1">
           Before you begin working with us, we want to introduce ourselves!
         </div>
+        <img
+          src={teamPic}
+          className="teamPic"
+          alt="ferlan and natalia photo"
+        ></img>
         <div className="description2">
-          I am Natalia Coleho (Left), I'm 24 years old and was raised in Rio de
+          I am Natalia Coleho (Far Right), I'm 24 years old and was raised in Rio de
           Janeiro, Brazil. I currently reside in Orlando Florida, and am
           currently working on my masters Degree at the University of Central
           Florida, along with this I also have my Bachelors Degree from UCF in
@@ -26,7 +31,7 @@ class Pros extends React.Component {
           classic victories to you and your physique!
         </div>
         <div className="description3">
-          And I am Ferlan Bailey (Right)! Im originally from the Island of
+          And I am Ferlan Bailey (Far Left)! Im originally from the Island of
           Grenada, but since the age of 13 I have been living in the Orlando
           Area! Before becoming an IFBB Pro, i worked as a Firefighter in
           Eustis, however now my time is fully devoted to Coaching, being home

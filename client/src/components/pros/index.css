@@ -19,7 +19,7 @@
   width: 500px;
   height: 49px;
   left: 262px;
-  top: 235px;
+  top: 195px;
 
   font-family: Avenir;
   font-style: italic;
@@ -35,7 +35,7 @@
   width: 500px;
   height: 49px;
   left: 262px;
-  top: 280px;
+  top: 695px;
 
   font-family: Avenir;
   font-style: italic;
@@ -51,7 +51,7 @@
   width: 500px;
   height: 49px;
   left: 262px;
-  top: 505px;
+  top: 910px;
 
   font-family: Avenir;
   font-style: italic;
@@ -61,5 +61,11 @@
   text-align: center;
 
   color: #000;
-
+}
+.teamPic {
+  position: absolute;
+  width: 560px;
+  height: 422px;
+  left: 215px;
+  top: 239px;
 }
