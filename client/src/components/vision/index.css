@@ -29,7 +29,7 @@
   line-height: 19px;
   text-align: center;
   
-  color: #FFFFFF;}
+  color: #000;}
 .vision2{position: absolute;
   width: 500px;
   height: 105px;
@@ -43,7 +43,7 @@
   line-height: 19px;
   text-align: center;
   
-  color: #FFFFFF;}
+  color: #000;}
 .vision3{position: absolute;
   width: 500px;
   height: 48px;
@@ -57,7 +57,7 @@
   line-height: 19px;
   text-align: center;
   
-  color: #FFFFFF;}
+  color: #000;}
 .vision4{position: absolute;
   width: 500px;
   height: 48px;
@@ -71,7 +71,7 @@
   line-height: 19px;
   text-align: center;
   
-  color: #FFFFFF;
+  color: #000;
   }
 .vision5{position: absolute;
   width: 500px;
@@ -86,5 +86,5 @@
   line-height: 19px;
   text-align: center;
   
-  color: #FFFFFF;
+  color: #000;
   }
