@@ -21,7 +21,8 @@ export default function Template() {
       </Link>
 
       <a className="emer" href="https://github.com/EDowning2000" target="blank">
-        Made with 🖤 by Emerson D.
+        {/* eslint-disable-next-line */}
+        Made with <span role="img">🖤</span> by Emerson D.
       </a>
     </div>
   );
