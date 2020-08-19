@@ -14,10 +14,6 @@ import Clipboard from "react-clipboard.js";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 
-// const copyTT = ()=>{
-//   <Tippy content= "Copied To Clipboard!"></Tippy>
-// }
-
 const emailAddress = "ifbbprosatwork@gmail.com";
 
 class Contact extends React.Component {
@@ -37,9 +33,7 @@ class Contact extends React.Component {
 
         <Clipboard data-clipboard-text={this.state.value}>
           <Tippy content="Copied to Clipboard!" delay="000" duration="200">
-            <div className="emailUs">
-              Click to Copy Our Email!
-            </div>
+            <div className="emailUs">Click to Copy Our Email!</div>
           </Tippy>
         </Clipboard>
 
@@ -56,8 +50,8 @@ class Contact extends React.Component {
           ></img>
         </a>
         <Clipboard data-clipboard-text={this.state.value}>
-        <Tippy content="Copied to Clipboard!" delay="000" duration="200">
-          <img src={gmailLogo} alt="gmail logo" className="gmailLogo"></img>
+          <Tippy content="Copied to Clipboard!" delay="000" duration="200">
+            <img src={gmailLogo} alt="gmail logo" className="gmailLogo"></img>
           </Tippy>
         </Clipboard>
       </div>
