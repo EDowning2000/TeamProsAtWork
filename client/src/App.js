@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Template from "./components/template/index";
+// import Template from "./components/template/index";
 import Vision from "./components/vision/index";
 import Contact from "./components/contact/index";
 import Home from './components/home/index';

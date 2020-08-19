@@ -15,7 +15,7 @@ class Pros extends React.Component {
         <img
           src={teamPic}
           className="teamPic"
-          alt="ferlan and natalia photo"
+          alt="ferlan and natalia"
         ></img>
         <div className="description2">
           I am Natalia Coleho (Far Right), I'm 24 years old and was raised in Rio de
